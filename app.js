@@ -12,7 +12,7 @@ require('./models/Comments');
 require('./models/Users');
 require('./config/passport');
 
-mongoose.connect('mongodb://adminuser:Shin140593@ds029575.mlab.com:29575/belldb');
+mongoose.connect('mongodb://adminuser:aSDch564d66dd5@ds029575.mlab.com:29575/belldb');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
